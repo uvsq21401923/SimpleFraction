@@ -1,9 +1,14 @@
 
 public class Fraction {
 
-	public String fraction;
+	public String fractio;
+	
+	public void fraction (String str) {
+		this.fractio=str;
+		
+	}
 	
 	public String toString(String fraction) {
-		   return "Résultat:" + this.fraction;
+		   return "Résultat:" + this.fractio;
 		}
 }
